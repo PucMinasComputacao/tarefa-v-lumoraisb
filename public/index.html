@@ -1,12 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Escola de Música Harmonia</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <span class="logo">🎵 Escola de Música Harmonia</span>
+        <button class="botao-header"><a href="#contato">Matricula</a></button>
+    </header>
+
+    <div class="layout">
+        <nav class="sidebar">
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#professores">Professores</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section id="inicio">
+                <div class="hero-texto">
+                    <h1>Título principal</h1>
+                    <p>
+                        Descubra o poder transformador da música em nossa escola.
+                        Oferecemos um ambiente acolhedor e inspirador para alunos de
+                        todas as idades desenvolverem suas habilidades musicais,
+                        desde iniciantes até níveis avançados.
+                    </p>
+                    <button class="botao-hero"><a href="#cursos">Conheça os cursos</a></button>
+                </div>
+
+                <div class="hero-imagem">
+                    <img src="https://picsum.photos/id/20/500/300" alt="Aluno tocando instrumento musical">
+                </div>
+            </section>
+             <section id="sobre">
+                <h2>Sobre a escola</h2>
+                <p>
+                    Nossa escola de música é dedicada a despertar o talento e a paixão
+                    pela música em cada aluno. Contamos com professores experientes,
+                    metodologia moderna e aulas personalizadas que respeitam o ritmo
+                    de aprendizado de cada estudante.
+                </p>
+            </section>
+            <section id="cursos">
+                <article>
+                    <img src="https://picsum.photos/id/1080/300/200" alt="Curso de piano">
+                    <h3>Piano</h3>
+                    <p>
+                        Aprenda leitura musical, coordenação e expressão artística
+                        com aulas práticas para todos os níveis.
+                    </p>
+                    <button>Saiba mais</button>
+                </article>
+
+                <article>
+                    <img src="https://picsum.photos/id/1062/300/200" alt="Curso de violão">
+                    <h3>Violão</h3>
+                    <p>
+                        Desenvolva ritmo, harmonia e técnica, desde os primeiros
+                        acordes até níveis mais avançados.
+                    </p>
+                    <button>Saiba mais</button>
+                </article>
+
+                <article>
+                    <img src="https://picsum.photos/id/1027/300/200" alt="Curso de canto">
+                    <h3>Canto</h3>
+                    <p>
+                        Trabalhe respiração, afinação e interpretação para cantar
+                        com segurança e emoção.
+                    </p>
+                    <button>Saiba mais</button>
+                </article>
+            </section>
+
+            <section id="professores">
+                <article>
+                    <img src="https://picsum.photos/id/1005/300/200" alt="Professor de piano">
+                    <h3>Professor 1</h3>
+                    <p>Especialidade: Piano</p>
+                </article>
+
+                <article>
+                    <img src="https://picsum.photos/id/1011/300/200" alt="Professor de violão">
+                    <h3>Professor 2</h3>
+                    <p>Especialidade: Violão</p>
+                </article>
+
+                <article>
+                    <img src="https://picsum.photos/id/1001/300/200" alt="Professor de canto">
+                    <h3>Professor 3</h3>
+                    <p>Especialidade: Canto</p>
+                </article>
+            </section>
+                <section id="contato">
+                <h2>Agende uma aula experimental</h2>
+                <form>
+                    <input type="text" id="nome" placeholder="Digite o seu nome">
+                    <input type="email" id="email" placeholder="Digite o seu email">
+                    <input type="text" id="instrumento" placeholder="Digite seu instrumento de interesse">
+                    <button type="submit" id="enviar">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Endereço | Telefone | Instagram | Direitos reservados</p>
+    </footer>
 </body>
 </html>

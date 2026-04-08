@@ -9,18 +9,18 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Luiza Morais Braga
+- Matricula: 917362
+- Proposta de projeto escolhida: Site institucional para escola de música
+- Breve descrição sobre seu projeto: Página inicial de uma escola de música fictícia chamada Harmonia, com seções de cursos, professores e formulário de contato, desenvolvida com HTML e CSS responsivo.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Desktop](./public/img/versao_responsiva-desktop.png)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Mobile](./public/img/versao_responsiva-mobile.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
